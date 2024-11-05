@@ -1,18 +1,20 @@
 #hero {
-  background-image: url(images/welcome-hero/welcome-banner.jpg);
-  background-position: center;
-  background-size: cover;
+  background: url(images/welcome-hero/welcome-banner.jpg) no-repeat center / cover;
   z-index: 1;
   color: white;
   position: relative;
 }
-
 *{
   list-style: none !important;
 }
 .hero-sec {
-  height: 550px;
-  padding-top: 160px;
+  padding: 300px 0;
+}
+.hero-sec h1{
+  font-size: 45px;
+}
+.hero-sec p{
+  font-size: 30px;
 }
 
 #hero:before {
@@ -130,11 +132,14 @@
 }
 
 #testimonial{
-  margin: 50px 0 100px 0;
+  margin: 100px 0 100px 0;
 }
 .testi {
   padding: 50px 30px 50px 30px;
   border: #dde3ed solid 1px;
+}
+.testi img{
+  width: 80px !important;
 }
 
 .testi:hover {
@@ -197,8 +202,12 @@
   margin: 50px 0 50px 0;
 }
 .fc-img{
-  width: 100px;
-  height: 115px;
+  width: 80px !important;
+  height: 100%;
+}
+.fc-im{
+  width: 150px !important;
+  height: 100%;
 }
 
 footer{
@@ -218,6 +227,13 @@ footer{
   top: 80px;
   left: 0;
   background-color: #5e6778;
+}
+.bottom-row a{
+  color: #727d90;
+}
+.bottom-row a:hover{
+  color: white;
+  transition: .5s;
 }
 .footer {
   padding: 100px 0  0 0;
