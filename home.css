@@ -1,0 +1,258 @@
+#hero {
+  background-image: url(/structure9/images/welcome-hero/welcome-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+
+*{
+  list-style: none !important;
+}
+.hero-sec {
+  height: 550px;
+  padding-top: 160px;
+}
+
+#hero:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 45, 84, .60);
+  z-index: -1;
+}
+
+#service {
+  margin: 100px 0 50px 0;
+}
+
+.serv {
+  border: #dde3ed solid 1px;
+  border-radius: 5px;
+  padding: 40px;
+  opacity: .7;
+}
+
+.serv i {
+  font-size: 50px;
+  color: #444a57;
+}
+
+.serv:hover i {
+  color: white;
+}
+
+.serv h2 {
+  font-size: 22px;
+}
+
+.serv:hover h2 {
+  color: white;
+}
+
+.serv p {
+  color: #444a57;
+}
+
+.serv:hover p {
+  color: white;
+}
+
+.serv:hover {
+  background-color: #0303fe;
+  color: white;
+  transition: .5s;
+}
+
+
+
+#new-cars {
+  /* background-color: whitesmoke; */
+  padding: 100px 0 100px 0;
+}
+
+/* .nc{
+   background-color: whitesmoke;
+} */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+#featured-cars{
+  margin: 50px 0 50px 0;
+}
+.img {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-info span {
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.m-info p {
+  font-size: 12px;
+}
+
+.txt-inf h6 {
+  font-size: 13px;
+}
+
+.txt-inf p {
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: .6;
+}
+
+#testimonial{
+  margin: 50px 0 100px 0;
+}
+.testi {
+  padding: 50px 30px 50px 30px;
+  border: #dde3ed solid 1px;
+}
+
+.testi:hover {
+  background-color: #0303fe;
+  color: white;
+  transition: .5s;
+}
+
+.testi:hover p {
+  color: white;
+}
+
+.testi:hover h2 {
+  color: white;
+}
+
+.testi:hover h3 {
+  color: white;
+}
+
+.testi p {
+  font-size: 17px;
+  color: #5e6778;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+.testi h2 {
+  margin: 0;
+  color: #444a57;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.testi h3 {
+  font-size: 16px;
+  color: #444a57;
+  margin-top: 10px;
+}
+
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -42px;
+  background: #4e4ffa;
+}
+
+
+#brands{
+  margin: 50px 0 50px 0;
+}
+.fc-img{
+  width: 100px;
+  height: 115px;
+}
+
+footer{
+  margin: 100px 0 0px 0;
+  background-color: #2a2d54;
+  /* padding-bottom: 50px; */
+}
+.bottom-row{
+  padding: 100px 0 10px 0;
+  position: relative;
+}
+.bottom-row p::after{
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  top: 80px;
+  left: 0;
+  background-color: #5e6778;
+}
+.footer {
+  padding: 100px 0  0 0;
+}
+.footer p{
+color: white;
+}
+.footer h3{
+  color: white;
+}
+.footer h4{
+  color: white;
+  font-size: 14px;
+}
+.ft-list li a {
+  text-decoration: none;
+  color: rgb(192, 190, 190);
+}
+.email-box input[type="text"] {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+
+}
+.email-box {
+  background: #26294d;
+  display: block;
+  padding: 5px 20px;
+  outline: 0 !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+  border: 0;
+}
+.carousel-item img{
+  width: 10% !important;
+}
+.carousel-caption {
+  color: black !important;
+}
